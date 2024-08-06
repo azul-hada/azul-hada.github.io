@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(7, 21, 100);
+    background-image: url(tec\ \(9\).jpeg);
+    background-size: cover;
+}
+h1{
+    color: #7f8086;
+    text-align: center;
+    font-size: 30px;
+    font-family: KanitMedium;
+    text-indent: 20px;
+}
+div, table{
+    margin-left: auto; margin-right: auto;
+    font-family: KanitRegular;
+    table-layout: auto;
+}
+tbody, button{
+    color: #7b8188;
+    font-family:  Verdana;
+    background-color: #020303
+  }
+
+button:hover{
+    background-color: #2b2d30 
+
+}
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: KanitBlack;
+    src: url(Kanit-Black.ttf);
+}
+@font-face {
+    font-family: KanitMedium;
+    src: url(Kanit-Medium.ttf);
+}
+@font-face {
+    font-family: KanitRegular;
+    src: url(Kanit-Regular.ttf);
+}
+.imagen{
+    font-family: Oswald;
+    text-indent: 20px;
+}
+.supertitulo{
+    text-align: left;
+    font-family: KanitBlack;
+}
+.texto{
+    text-align: right;
+}
+p{
+    color: #7f8086;
+    text-align: left;
+    font-family: KanitBlack;
+    font-style: oblique;
+    font-size: 30px;
+    text-indent: 20px
+}
+.izquierda{
+    text-align: left;
+}
+.derecha{
+    text-align: end;
+}
+.centro{
+    text-align: center;
+}
+#Menu{
+    background-color: #020303;
+}
